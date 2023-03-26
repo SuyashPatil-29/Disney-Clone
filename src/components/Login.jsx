@@ -8,7 +8,7 @@ const Login = () => {
             <Content>
             <CTA>
               <CTALogoOne src="/images/cta-logo-one.svg" alt=""/>
-              <SignUpButton>GET ALL THERE</SignUpButton>
+              <SignUpButton>GET IT ALL THERE</SignUpButton>
               <Description>Get Premier Access to Raya and the Last Dragon fir ab additional fee with a Disney+ subscription. As of 3/26/23, the price of Disney+ and The Disney Bundle will increase by $1</Description>
               <CTALogoTwo src="/images/cta-logo-two.png" alt=""/>
             </CTA>
@@ -26,7 +26,7 @@ const Container = styled.section`
     height: 100vh;
 `
 const Content = styled.div`
-margin-bottom: 10vw;
+margin-bottom: 3vw;
 width: 100%;
 position: relative;
 min-height: 100vh;
@@ -62,6 +62,11 @@ const CTA = styled.div`
   align-items: center;
   transition-timing-function: ease-out;
   transition: opacity 0.2s;
+
+  @media (max-width: 768px){
+    width: 80vw;
+    margin: 0 auto;
+  }
 `
 
 const CTALogoOne = styled.img`
@@ -75,7 +80,7 @@ const CTALogoTwo = styled.img`
   max-width: 600px;
   display: inline-block;
   vertical-align: bottom;
-  width: 100%;
+  width: 80%;
 `
 
 const SignUpButton = styled.button`
@@ -89,6 +94,12 @@ const SignUpButton = styled.button`
   padding: 16.5px 0;
   border: 1px solid transparent;
   border-radius: 4px;
+
+  @media (max-width: 768px){
+    width: 80vw;
+    margin: 0 auto;
+  }
+
   &:hover { background-color: #0483ee;}
 `
 const Description = styled.p`
