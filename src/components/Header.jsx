@@ -141,15 +141,16 @@ const NavMenu = styled.div`
     padding: 0 12px;
 
     img{
-        height: 20px;
+        height: 22px;
         min-width: 20px;
         z-index: auto;
-        margin-bottom: 5px;
+        margin-bottom: 2.5px;
+
     }
 
     span{
         color: rgb(249,249,249);
-        font-size: 16.5px;
+        font-size: 16px;
         letter-spacing: 1.42px;
         line-height: 1.08em;
         padding: 2px 4px;
@@ -221,7 +222,8 @@ border-radius: 4px;
 box-shadow: rgb(0 0 0 /50%) 0 0 18px 0px;
 padding: 10px;
 font-size: 14px;
-width: 100px;
+width: 120px;
+height: 45px;
 display: flex;
 align-items: center;
 justify-content: center;

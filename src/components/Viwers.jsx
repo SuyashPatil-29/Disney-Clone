@@ -51,7 +51,6 @@ grid-template-columns: repeat(5, minmax(0, 1fr));
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
     gap: 25px;
-    margin-right: 100px;
     overflow: hidden;
 }
 `
@@ -77,8 +76,6 @@ const Wrap = styled.div`
     width: 100%;
     z-index: 1;
     top: 0;
-
-
 }
 
 video{
