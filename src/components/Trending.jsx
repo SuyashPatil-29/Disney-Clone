@@ -5,7 +5,6 @@ import { selectTrending } from "../features/movie/movieSlice";
 
 const Trending = (props) => {
   const trendingMovies = useSelector(selectTrending);
-  console.log(trendingMovies, ":🛢️");
 
   return (
     <Container>
