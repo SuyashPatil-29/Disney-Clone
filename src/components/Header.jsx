@@ -54,27 +54,27 @@ const Header = () => {
                     <>
                       <NavMenu>
                         <a href="/home">
-                          <img src="/home" alt="HOME" />
+                          <img src="/images/home-icon.svg" alt="HOME" />
                           <span>HOME</span>
                         </a>
-                        <a>
-                          <img src="/home" alt="SEARCH" />
+                        <a href="/home">
+                          <img src="/images/search-icon.svg" alt="SEARCH" />
                           <span>SEARCH</span>
                         </a>
-                        <a>
-                          <img src="/home" alt="WATCHLIST" />
+                        <a href="/home">
+                          <img src="/images/watchlist-icon.svg" alt="WATCHLIST" />
                           <span>WATCHLIST</span>
                         </a>
-                        <a>
-                          <img src="/home" alt="ORIGINALS" />
+                        <a href="/home">
+                          <img src="/images/original-icon.svg" alt="ORIGINALS" />
                           <span>ORIGINALS</span>
                         </a>
-                        <a>
-                          <img src="/home" alt="MOVIES" />
+                        <a href="/home">
+                          <img src="/images/movie-icon.svg" alt="MOVIES" />
                           <span>MOVIES</span>
                         </a>
-                        <a>
-                          <img src="/home" alt="SERIES" />
+                        <a href="/home">
+                          <img src="/images/series-icon.svg" alt="SERIES" />
                           <span>SERIES</span>
                         </a>
                       </NavMenu>
